@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #3d5670;
+    padding: 40px 0;
+    color: #f5f6fa;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2,
+.articles {
+    margin-bottom: 16px;
+
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+    color: #154577;
+}
+
+#esportes {
+    background-color: #3d567097;
+}
+
+#esportes .articles article a {
+    border-radius: 10px;
+    background-color: #154577;
+}
+
+#economia {
+    background-color: #3d567069;
+}
+
+#economia .articles article a {
+    border-radius: 10px;
+    background-color: #154577;
+}
+
+#entretenimento {
+    background-color: #3d567044;
+}
+
+#entretenimento .articles article a {
+    border-radius: 10px;
+    background-color: #154577;
+}
+
+#tecnologia {
+    background-color: #3d567019;
+}
+
+#tecnologia .articles article a {
+    border-radius: 10px;
+    background-color: #154577;
+}
+
+section img {
+    border-radius: 20px;
+}
